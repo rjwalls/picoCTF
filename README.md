@@ -48,6 +48,8 @@ cd picoCTF
 vagrant up
 ```
 
+The default credentials for the SHELL are "vagrant:vagrant".
+
 These commands perform the following:
 
 1. Get the source code at the most recent development state (`git`)
