@@ -26,6 +26,13 @@
     virtualenv: "{{ virtualenv_dir }}"
     virtualenv_python: python3.7
 
+- name: Install version of jinja2 with escape
+  pip:
+    name: jinja2
+    version: 3.0
+    virtualenv: "{{ virtualenv_dir }}"
+    virtualenv_python: python3.7
+
 - name: Install python packages in virtualenv
   pip:
     name: [
